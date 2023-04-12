@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post dan Get HTTP on Saiful Miqdar</title>
+    <link>https://ifulxploit.github.io/tags/post-dan-get-http/</link>
+    <description>Recent content in Post dan Get HTTP on Saiful Miqdar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Apr 2023 04:40:28 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/post-dan-get-http/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Melewati Verifikasi Captcha Dengan Mudah</title>
+      <link>https://ifulxploit.github.io/blogs/cara-melewati-verifikasi-captcha-dengan-mudah/</link>
+      <pubDate>Wed, 12 Apr 2023 04:40:28 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/cara-melewati-verifikasi-captcha-dengan-mudah/</guid>
+      <description>Captcha Bypass: Cara Melewati Verifikasi Captcha Captcha atau Completely Automated Public Turing test to tell Computers and Humans Apart, adalah sebuah tes keamanan yang digunakan untuk memastikan bahwa pengguna adalah manusia, bukan bot atau program komputer. Namun, terkadang kita membutuhkan cara untuk melewati verifikasi Captcha, seperti pada saat menguji fungsi server yang memungkinkan pengguna memasukkan input.
+Berikut beberapa cara yang dapat dilakukan untuk melewati Captcha:
+ Jangan mengirim parameter yang terkait dengan Captcha.</description>
+    </item>
+    
+  </channel>
+</rss>

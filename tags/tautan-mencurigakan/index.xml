@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tautan Mencurigakan on Saiful Miqdar</title>
+    <link>https://ifulxploit.github.io/tags/tautan-mencurigakan/</link>
+    <description>Recent content in Tautan Mencurigakan on Saiful Miqdar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Apr 2023 04:20:59 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/tautan-mencurigakan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mencegah Serangan ATO Tips Dan Teknik Penting Untuk Keamanan Akun</title>
+      <link>https://ifulxploit.github.io/blogs/mencegah-serangan-ato-tips-dan-teknik-penting-untuk-keamanan-akun/</link>
+      <pubDate>Wed, 12 Apr 2023 04:20:59 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/mencegah-serangan-ato-tips-dan-teknik-penting-untuk-keamanan-akun/</guid>
+      <description>Tentang ATO dan Cara Menghindarinya Serangan ATO atau Account Takeover adalah jenis serangan keamanan di mana seseorang berhasil mengambil alih kontrol atas akun milik orang lain. Setelah berhasil mengambil alih akun, orang tersebut bisa mengubah informasi pada akun, melakukan tindakan merugikan, atau bahkan mengambil informasi pribadi.
+Beberapa teknik yang digunakan untuk serangan ATO adalah: Authorization Issue, Unicode Normalization Issue, Reusing Reset Token, Pre Account Takeover, CORS Misconfiguration to Account Takeover, Csrf to Account Takeover, XSS to Account Takeover, Same Origin + Cookies, dan Attacking Password Reset Mechanism.</description>
+    </item>
+    
+  </channel>
+</rss>

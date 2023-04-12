@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>contoh serangan on Saiful Miqdar</title>
+    <link>https://ifulxploit.github.io/tags/contoh-serangan/</link>
+    <description>Recent content in contoh serangan on Saiful Miqdar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Apr 2023 07:15:09 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/contoh-serangan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apa Itu Cache Poisoning Dan Cache Deception ? Dan Cara Mengatasinya</title>
+      <link>https://ifulxploit.github.io/blogs/apa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya/</link>
+      <pubDate>Wed, 12 Apr 2023 07:15:09 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/apa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya/</guid>
+      <description>Cache Poisoning dan Cache Deception Cache Poisoning dan Cache Deception adalah jenis serangan keamanan pada aplikasi web yang menggunakan cache. Meskipun keduanya berhubungan dengan cache, namun keduanya memiliki perbedaan.
+Cache Poisoning terjadi ketika seorang penyerang memasukkan konten jahat ke dalam cache, sehingga konten tersebut disajikan dari cache kepada pengguna lainnya. Tujuan dari cache poisoning adalah untuk membuat klien memuat sumber daya yang tidak diharapkan atau terkontrol oleh penyerang. Respons yang tercemar akan disajikan hanya kepada pengguna yang mengunjungi halaman yang terkena dampak selama cache dicemari.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,55 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Saiful Miqdar</title>
-    <link>https://example.org/blogs/</link>
+    <link>https://ifulxploit.github.io/blogs/</link>
     <description>Recent content in Blogs on Saiful Miqdar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Apr 2021 23:29:21 +0530</lastBuildDate><atom:link href="https://example.org/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Apr 2023 07:15:09 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Syntax</title>
-      <link>https://example.org/blogs/markdown-syntax/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      <title>Apa Itu Cache Poisoning Dan Cache Deception ? Dan Cara Mengatasinya</title>
+      <link>https://ifulxploit.github.io/blogs/apa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya/</link>
+      <pubDate>Wed, 12 Apr 2023 07:15:09 +0700</pubDate>
       
-      <guid>https://example.org/blogs/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://ifulxploit.github.io/blogs/apa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya/</guid>
+      <description>Cache Poisoning dan Cache Deception Cache Poisoning dan Cache Deception adalah jenis serangan keamanan pada aplikasi web yang menggunakan cache. Meskipun keduanya berhubungan dengan cache, namun keduanya memiliki perbedaan.
+Cache Poisoning terjadi ketika seorang penyerang memasukkan konten jahat ke dalam cache, sehingga konten tersebut disajikan dari cache kepada pengguna lainnya. Tujuan dari cache poisoning adalah untuk membuat klien memuat sumber daya yang tidak diharapkan atau terkontrol oleh penyerang. Respons yang tercemar akan disajikan hanya kepada pengguna yang mengunjungi halaman yang terkena dampak selama cache dicemari.</description>
     </item>
     
     <item>
-      <title>Emoji Support</title>
-      <link>https://example.org/blogs/emoji-support/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <title>Cara Melewati Verifikasi Captcha Dengan Mudah</title>
+      <link>https://ifulxploit.github.io/blogs/cara-melewati-verifikasi-captcha-dengan-mudah/</link>
+      <pubDate>Wed, 12 Apr 2023 04:40:28 +0700</pubDate>
       
-      <guid>https://example.org/blogs/emoji-support/</guid>
-      <description>Emoji can be enabled in a Hugo project in a number of ways. :zap:
-Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.
-To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.
-The Emoji cheat sheet is a useful reference for emoji shorthand codes.
-N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform.</description>
+      <guid>https://ifulxploit.github.io/blogs/cara-melewati-verifikasi-captcha-dengan-mudah/</guid>
+      <description>Captcha Bypass: Cara Melewati Verifikasi Captcha Captcha atau Completely Automated Public Turing test to tell Computers and Humans Apart, adalah sebuah tes keamanan yang digunakan untuk memastikan bahwa pengguna adalah manusia, bukan bot atau program komputer. Namun, terkadang kita membutuhkan cara untuk melewati verifikasi Captcha, seperti pada saat menguji fungsi server yang memungkinkan pengguna memasukkan input.
+Berikut beberapa cara yang dapat dilakukan untuk melewati Captcha:
+ Jangan mengirim parameter yang terkait dengan Captcha.</description>
     </item>
     
     <item>
-      <title>Placeholder Text</title>
-      <link>https://example.org/blogs/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+      <title>Tips Bypass Payment Process Secara Efektif Dengan PayPal Dan CoinPayments</title>
+      <link>https://ifulxploit.github.io/blogs/tips-bypass-payment-process-secara-efektif-dengan-paypal-dan-coinpayments/</link>
+      <pubDate>Wed, 12 Apr 2023 04:32:29 +0700</pubDate>
       
-      <guid>https://example.org/blogs/placeholder-text/</guid>
-      <description>Lorem est tota propiore conpellat pectoribus de pectora summo.
-Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
- Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude  Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description>
+      <guid>https://ifulxploit.github.io/blogs/tips-bypass-payment-process-secara-efektif-dengan-paypal-dan-coinpayments/</guid>
+      <description>Membajak Proses Pembayaran Ketika berbelanja online, pembayaran menjadi bagian yang penting dan harus dijaga keamanannya. Namun, terkadang ada orang jahat yang mencoba mencuri data pembayaran Anda dengan melakukan pembajakan proses pembayaran. Salah satu teknik yang digunakan oleh para penjahat ini adalah dengan melakukan bypass pada proses pembayaran. Berikut ini adalah cara-cara yang dapat digunakan oleh para penjahat untuk membajak proses pembayaran.
+Pertama, para penjahat dapat mencoba memilih metode pembayaran PayPal atau CoinPayments.</description>
     </item>
     
     <item>
-      <title>Rich Content</title>
-      <link>https://example.org/blogs/rich-content/</link>
-      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
+      <title>Mencegah Serangan ATO Tips Dan Teknik Penting Untuk Keamanan Akun</title>
+      <link>https://ifulxploit.github.io/blogs/mencegah-serangan-ato-tips-dan-teknik-penting-untuk-keamanan-akun/</link>
+      <pubDate>Wed, 12 Apr 2023 04:20:59 +0700</pubDate>
       
-      <guid>https://example.org/blogs/rich-content/</guid>
-      <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
-Gist Simple Shortcode {{&amp;lt; gist spf13 7896402 &amp;#34;img.html&amp;#34; &amp;gt;}} 
- Twitter Simple Shortcode {{&amp;lt; tweet GoHugoIO 1315233626070503424 &amp;gt;}} 
-Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by @gurusabarishh.https://t.co/KwYcwfdy16
-&amp;mdash; GoHugo.</description>
+      <guid>https://ifulxploit.github.io/blogs/mencegah-serangan-ato-tips-dan-teknik-penting-untuk-keamanan-akun/</guid>
+      <description>Tentang ATO dan Cara Menghindarinya Serangan ATO atau Account Takeover adalah jenis serangan keamanan di mana seseorang berhasil mengambil alih kontrol atas akun milik orang lain. Setelah berhasil mengambil alih akun, orang tersebut bisa mengubah informasi pada akun, melakukan tindakan merugikan, atau bahkan mengambil informasi pribadi.
+Beberapa teknik yang digunakan untuk serangan ATO adalah: Authorization Issue, Unicode Normalization Issue, Reusing Reset Token, Pre Account Takeover, CORS Misconfiguration to Account Takeover, Csrf to Account Takeover, XSS to Account Takeover, Same Origin + Cookies, dan Attacking Password Reset Mechanism.</description>
+    </item>
+    
+    <item>
+      <title>Cara Bypass 2FA: 4 Teknik yang Sering Digunakan dan Cara Menghindarinya</title>
+      <link>https://ifulxploit.github.io/blogs/cara-bypass-2fa-4-teknik-yang-sering-digunakan-dan-cara-menghindarinya/</link>
+      <pubDate>Wed, 12 Apr 2023 04:12:10 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/cara-bypass-2fa-4-teknik-yang-sering-digunakan-dan-cara-menghindarinya/</guid>
+      <description>Sebelum membahas cara bypass 2FA, pertama-tama kita perlu memahami apa itu 2FA dan mengapa itu penting dalam keamanan web. 2FA singkatan dari Two-Factor Authentication atau autentikasi dua faktor, merupakan metode keamanan yang memerlukan dua cara untuk memverifikasi identitas pengguna sebelum memberikan akses ke akun atau sistem. Biasanya, dua faktor ini terdiri dari sesuatu yang dimiliki pengguna, seperti password, dan sesuatu yang hanya dimiliki oleh pengguna, seperti token yang dihasilkan oleh aplikasi autentikasi.</description>
+    </item>
+    
+    <item>
+      <title>Belajar LIT Cara Mendefinisikan Komponen</title>
+      <link>https://ifulxploit.github.io/blogs/belajar-lit-cara-mendefinisikan-komponen/</link>
+      <pubDate>Tue, 11 Apr 2023 22:44:20 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/belajar-lit-cara-mendefinisikan-komponen/</guid>
+      <description>Pengenalan Komponen Lit Komponen Lit adalah sebuah UI (User Interface) yang dapat digunakan kembali. Anda dapat menganggap komponen Lit sebagai sebuah kontainer yang memiliki beberapa state dan menampilkan UI berdasarkan pada state tersebut. Komponen Lit juga dapat bereaksi terhadap input pengguna dan melepas event - apapun yang diharapkan dari sebuah komponen UI. Selain itu, komponen Lit juga merupakan elemen HTML, sehingga ia memiliki semua API elemen standar.
+Definisi Komponen Untuk mendefinisikan sebuah komponen Lit, kita perlu membuat sebuah kelas yang meng-extend LitElement dan mendaftarkan kelas tersebut pada browser:</description>
+    </item>
+    
+    <item>
+      <title>Belajar LIT Cara Membuat Components Pada Lit Framework</title>
+      <link>https://ifulxploit.github.io/blogs/belajar-lit-cara-membuat-components-pada-lit-framework/</link>
+      <pubDate>Tue, 11 Apr 2023 22:32:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/belajar-lit-cara-membuat-components-pada-lit-framework/</guid>
+      <description>Komponen Lit : Apa itu dan Cara Membuat Komponen Lit ? Komponen Lit adalah sebuah UI yang dapat digunakan kembali. Anda dapat menganggap komponen Lit sebagai kontainer yang memiliki beberapa state dan menampilkan UI berdasarkan pada state tersebut. Ia juga dapat bereaksi terhadap input pengguna, melepas event - apapun yang diharapkan dari sebuah komponen UI. Komponen Lit juga merupakan elemen HTML, sehingga ia memiliki semua API elemen standar.
+Membuat komponen Lit melibatkan beberapa konsep:</description>
+    </item>
+    
+    <item>
+      <title>Belajar LIT: Pengenalan Dasar</title>
+      <link>https://ifulxploit.github.io/blogs/belajar-lit-pengenalan-dasar/</link>
+      <pubDate>Tue, 11 Apr 2023 21:01:36 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/belajar-lit-pengenalan-dasar/</guid>
+      <description>Belajar LIT: Pengenalan Dasar LIT adalah sebuah framework web yang dikembangkan untuk mempermudah proses pengembangan aplikasi web dengan cara yang sederhana, ringan, dan fleksibel.
+Persiapan Lingkungan Pengembangan Sebelum memulai pengembangan menggunakan LIT, ada beberapa hal yang perlu diperhatikan terkait lingkungan pengembangan yang akan digunakan, diantaranya:
+ Pastikan Node.js sudah terinstall di komputer. Anda bisa memeriksa apakah Node.js sudah terinstall dengan menjalankan perintah node -v di terminal. Install LIT CLI dengan menjalankan perintah npm install -g @lit/cli di terminal.</description>
+    </item>
+    
+    <item>
+      <title>7 Langkah Untuk Memperkuat Keamanan Cyber Di Perusahaan</title>
+      <link>https://ifulxploit.github.io/blogs/7-langkah-untuk-memperkuat-keamanan-cyber-di-perusahaan/</link>
+      <pubDate>Tue, 11 Apr 2023 20:38:46 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/7-langkah-untuk-memperkuat-keamanan-cyber-di-perusahaan/</guid>
+      <description>Keamanan siber adalah hal yang sangat penting bagi sebuah perusahaan di era digital saat ini. Ancaman serangan siber bisa datang dari berbagai pihak, mulai dari peretas yang ingin mencuri data sensitif hingga kelalaian karyawan yang tidak memperhatikan keamanan sistem. Oleh karena itu, perkuat keamanan siber di perusahaan Anda menjadi sangat penting. Berikut adalah 7 langkah yang dapat dilakukan untuk memperkuat keamanan siber di perusahaan Anda.
+1. Password Kuat
+Pastikan bahwa karyawan dan pengguna sistem menggunakan password yang kuat dan tidak mudah ditebak.</description>
     </item>
     
   </channel>

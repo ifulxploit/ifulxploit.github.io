@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" href=/fav.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-2ELQ7HPMCS', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<meta property="og:title" content="Apa Itu Cache Poisoning Dan Cache Deception ? Dan Cara Mengatasinya" />
+<meta property="og:description" content="Cache deception dan Cache Poisoning apa itu ? apa perbedaanya ? bagaimana contoh exploit dan cara menanggulangi Cache deception dan Cache Poisoning." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ifulxploit.github.io/blogs/apa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya/" /><meta property="article:section" content="blogs" />
+<meta property="article:published_time" content="2023-04-12T07:15:09+07:00" />
+<meta property="article:modified_time" content="2023-04-12T07:15:09+07:00" /><meta property="og:site_name" content="iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Apa Itu Cache Poisoning Dan Cache Deception ? Dan Cara Mengatasinya"/>
+<meta name="twitter:description" content="Cache deception dan Cache Poisoning apa itu ? apa perbedaanya ? bagaimana contoh exploit dan cara menanggulangi Cache deception dan Cache Poisoning."/>
+
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all">
+<link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+
+
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+</style>
+<meta name="description" content="Cache deception dan Cache Poisoning apa itu ? apa perbedaanya ? bagaimana contoh exploit dan cara menanggulangi Cache deception dan Cache Poisoning.">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-5/all-5.15.4.js"></script>
+
+  <title>
+Apa Itu Cache Poisoning Dan Cache Deception ? Dan Cara Mengatasinya | Saiful Miqdar
+
+  </title>
+</head>
+
+<body class="light" onload="loading()">
+  
+  
+  <script src="/bootstrap-5/js/bootstrap.bundle.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+
+
+<header>
+    <nav class="pt-3 navbar navbar-expand-lg">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/fav.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming
+                
+            </a>
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav  ms-auto text-center">
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">About</a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#achievements"
+                            aria-label="achievements">Achievements</a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">Contact</a>
+                    </li>
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Example dropdown menu">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
+                            
+                            <a class="dropdown-item text-center nav-link" href="/"
+                                title="example dropdown 1">
+                                example 1
+                            </a>
+                            
+                            <a class="dropdown-item text-center nav-link" href="/"
+                                title="example dropdown 2">
+                                example 2
+                            </a>
+                            
+                        </div>
+                    </li>
+                    
+                    
+                </ul>
+
+                
+                
+                <div class="text-center">
+                    <button id="theme-toggle">
+                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </button>
+                </div>
+            
+                
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Apa Itu Cache Poisoning Dan Cache Deception ? Dan Cara Mengatasinya</h1>
+            <div class="text-center">
+              Saiful Miqdar 
+              <small>|</small>
+              Apr 12, 2023
+            </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid" src="https://img.freepik.com/free-vector/laptop-cyber-security_603843-2361.jpg?w=900&amp;t=st=1681259184~exp=1681259784~hmac=7903aabbcecc88f70dec788845e3dd521672cb03510de3471f9cfc383448869e" alt="Apa Itu Cache Poisoning Dan Cache Deception ? Dan Cara Mengatasinya">
+          </div>
+          
+          <article class="page-content">
+          <h2 id="cache-poisoning-dan-cache-deception">Cache Poisoning dan Cache Deception</h2>
+<p><strong>Cache Poisoning</strong> dan <strong>Cache Deception</strong> adalah jenis serangan keamanan pada aplikasi web yang menggunakan cache. Meskipun keduanya berhubungan dengan cache, namun keduanya memiliki perbedaan.</p>
+<p><strong>Cache Poisoning</strong> terjadi ketika seorang penyerang memasukkan konten jahat ke dalam cache, sehingga konten tersebut disajikan dari cache kepada pengguna lainnya. Tujuan dari cache poisoning adalah untuk membuat klien memuat sumber daya yang tidak diharapkan atau terkontrol oleh penyerang. Respons yang tercemar akan disajikan hanya kepada pengguna yang mengunjungi halaman yang terkena dampak selama cache dicemari. Dampak yang ditimbulkan dapat berkisar dari tidak ada dampak hingga sangat besar tergantung pada seberapa populer halaman tersebut.</p>
+<p>Untuk melakukan serangan cache poisoning, penyerang harus terlebih dahulu mengidentifikasi input yang tidak dipersyaratkan (parameter yang tidak perlu muncul pada permintaan yang di-cache tetapi mengubah halaman yang dikembalikan), dan mencari cara untuk mengeksploitasi parameter tersebut sehingga dapat menghasilkan respon yang dicache.</p>
+<p>Penyerang dapat melakukan identifikasi terhadap input dengan menggunakan Param Miner untuk memaksa parameter dan header yang mungkin mengubah respons halaman. Kemudian, penyerang dapat memeriksa cara input tersebut disanitasi dan bagaimana input tersebut memengaruhi respons dari header. <strong>Apakah penyerang dapat mengeksploitasi input tersebut</strong> <code>(melakukan XSS atau memuat kode JS yang dikontrol oleh penyerang, melakukan DoS, dll.)</code> <strong>?</strong> Setelah mengetahui cara mengeksploitasi input tersebut, penyerang dapat mengambil respons yang telah dicache.</p>
+<p>Ada beberapa header <code>HTTP</code> yang dapat membantu penyerang dalam melakukan serangan cache poisoning, seperti <strong>X-Cache</strong>, <strong>Cache-Control</strong>, <strong>Vary</strong>, dan <strong>Age</strong>. Namun, penyerang harus berhati-hati dalam menggunakan header saat melakukan cache poisoning karena beberapa header bisa digunakan dengan cara yang tidak diharapkan sebagai <code>keyed</code>.</p>
+<p>Di sisi lain, <strong>Cache Deception</strong> terjadi ketika seorang penyerang memasukkan konten sensitif milik pengguna lain ke dalam cache, lalu penyerang mengambil konten tersebut dari cache. Dalam kasus ini, penyerang tidak menyajikan konten yang telah dicemari pada pengguna lain, tetapi memanfaatkan konten sensitif tersebut untuk kepentingannya sendiri.</p>
+<p>Dalam melakukan <code>Cache Deception</code>, penyerang perlu mengetahui bagaimana sistem cache bekerja dan mencari cara untuk memasukkan konten yang sensitif ke dalam cache. Kemudian, penyerang dapat mengambil konten yang telah dicache untuk digunakan sesuai dengan keinginannya.</p>
+<p><strong>Kesimpulan Cache Poisoning dan Cache Deception</strong> adalah jenis serangan keamanan pada aplikasi web yang menggunakan cache. Kedua serangan ini berbeda dalam cara penyerang memanfaatkan cache, di mana pada Cache Poisoning, penyerang memasukkan konten jahat ke dalam cache, sedangkan pada Cache Deception, penyerang memasukkan konten sensitif milik pengguna lain ke dalam cache.</p>
+<h2 id="contoh-exploit">Contoh Exploit</h2>
+<h3 id="easiest-exampleeasiest-example">Easiest example<a href="#easiest-example"></a></h3>
+<p>pada sebuah website terdapat header yang dapat dimanipulasi seperti <code>X-Forwarded-For</code> oleh pengguna jahat dengan memasukkan kode <code>XSS</code> yang berbahaya. Ketika orang lain mengakses halaman tersebut, mereka juga akan terkena serangan <code>XSS</code> yang sama. Hal ini dapat dimanfaatkan oleh penyerang untuk melakukan serangan pada banyak orang secara bersamaan.</p>
+<pre><code>GET /en?region=uk HTTP/1.1
+Host: innocent-website.com
+X-Forwarded-Host: a.&quot;&gt;&lt;script&gt;alert(1)&lt;/script&gt;&quot;
+</code></pre>
+<blockquote>
+<p>Perlu diingat bahwa ini akan meracuni permintaan ke <strong>/en?region=uk</strong>
+bukan ke <strong>/en</strong>.</p>
+</blockquote>
+<h3 id="menggunakan-pemalsuan-web-cache-untuk-mengeksploitasi-kerentanan-penanganan-cookie">Menggunakan pemalsuan web cache untuk mengeksploitasi kerentanan penanganan cookie</h3>
+<p>web cache poisoning dapat dimanfaatkan untuk mengeksploitasi kerentanan dalam penanganan cookie. Cookie bisa tercermin pada respons dari suatu halaman. Jika kamu bisa menyalahgunakannya untuk menyebabkan <code>XSS</code>, misalnya, kamu bisa mengeksploitasi <code>XSS</code> pada beberapa klien yang memuat respons cache berbahaya.</p>
+<pre><code>GET / HTTP/1.1
+Host: vulnerable.com
+Cookie: session=VftzO7ZtiBj5zNLRAuFpXpSQLjS4lBmU; fehost=asd&quot;%2balert(1)%2b&quot;
+</code></pre>
+<blockquote>
+<p>Perlu diingat bahwa jika cookie yang rentan digunakan secara luas oleh
+pengguna, permintaan reguler akan membersihkan cache.</p>
+</blockquote>
+<h3 id="penggunaan-beberapa-header-untuk-mengeksploitasi-kerentanan-keracunan-cache-web">Penggunaan beberapa header untuk mengeksploitasi kerentanan keracunan cache web</h3>
+<p>terkadang dibutuhkan beberapa input yang tidak diberi kunci untuk mengeksploitasi kerentanan web <code>cache poisoning</code>. Contohnya, jika Anda menyetel <strong>X-Forwarded-Host</strong> ke domain yang dikendalikan oleh Anda dan <strong>X-Forwarded-Scheme</strong> ke <code>http</code>, maka Anda dapat menemukan pengalihan terbuka <code>(Open Redirect)</code> jika server meneruskan semua permintaan <code>HTTP</code> ke <code>HTTPS</code> dan menggunakan header <strong>X-Forwarded-Scheme</strong> sebagai nama domain untuk pengalihan tersebut. Dengan demikian, Anda dapat mengontrol halaman yang dituju oleh pengalihan tersebut.</p>
+<pre><code>GET /resources/js/tracking.js HTTP/1.1
+Host: acc11fe01f16f89c80556c2b0056002e.web-security-academy.net
+X-Forwarded-Host: ac8e1f8f1fb1f8cb80586c1d01d500d3.web-security-academy.net/
+X-Forwarded-Scheme: http
+</code></pre>
+<p>Contoh permintaan yang diberikan di atas adalah contoh dari <code>HTTP GET request</code> yang dikirimkan ke server dengan header <code>Host</code>, <code>X-Forwarded-Host</code>, dan <code>X-Forwarded-Scheme</code>.</p>
+<h3 id="mengeksploitasi-dengan-header-vary-yang-terbatas">Mengeksploitasi dengan header Vary yang terbatas</h3>
+<p>Jika Anda menemukan bahwa header <code>X-Host</code> digunakan sebagai nama domain untuk memuat sumber daya <code>JS</code> tetapi header Vary pada respons menunjukkan <code>User-Agent</code>. Maka, Anda perlu mencari cara untuk mengambil <code>User-Agent</code> dari korban dan meracuni cache menggunakan user agent itu:</p>
+<pre><code>GET / HTTP/1.1
+Host: vulnerbale.net
+User-Agent: USER-AGENT KORBAN
+X-Host: attacker.com
+</code></pre>
+<p>Dalam contoh permintaan yang diberikan, permintaan <code>GET</code> dilakukan dengan mengirimkan header Host dan User-Agent yang tepat, serta header <code>X-Host</code> yang dimanipulasi untuk menunjuk ke domain yang dikendalikan oleh penyerang. Hal ini dimaksudkan untuk meracuni cache dan kemudian mengeksploitasi celah keamanan yang ada.</p>
+<h3 id="mengeksploitasi-keracunan-cache-http-dengan-menyalahgunakan-http-request-smuggling">Mengeksploitasi Keracunan Cache HTTP dengan menyalahgunakan HTTP Request Smuggling.</h3>
+<p>Belajarlah di sini tentang bagaimana melakukan serangan <a href="https://book.hacktricks.xyz/pentesting-web/http-request-smuggling#using-http-request-smuggling-to-perform-web-cache-poisoning">Cache Poisoning dengan menyalahgunakan HTTP Request Smuggling</a>.</p>
+<h3 id="pengujian-otomatis-untuk-web-cache-poisoning">Pengujian otomatis untuk Web Cache Poisoning</h3>
+<p><em><strong>Vulnerability Scanner</strong></em>, yang dapat diakses melalui tautan Github <a href="https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner">https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner</a>. Alat ini dapat melakukan pengujian secara otomatis untuk mengidentifikasi kerentanan web cache poisoning dengan berbagai teknik dan sangat dapat disesuaikan. Contoh penggunaannya adalah dengan menjalankan perintah <code>wcvs -u example.com</code>.</p>
+<h2 id="contoh-kerentanan">Contoh Kerentanan</h2>
+<p>Apache Traffic Server <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-27577">(CVE-2021-27577)</a>
+Pada kasus tersebut, <strong>ATS</strong> <code>(Apache Traffic Server)</code> meneruskan fragmen di dalam URL tanpa menghilangkannya dan membuat kunci cache hanya menggunakan host, path, dan query (mengabaikan fragmen). Sehingga permintaan <code>/#/../?r=javascript:alert(1)</code> dikirimkan ke backend sebagai <code>/#/../?r=javascript:alert(1)</code> dan kunci cache tidak mengandung payload di dalamnya, hanya <code>host</code>, <code>path</code>, dan <code>query</code>. Dengan demikian, serangan cache poisoning bisa dilakukan dengan memanipulasi URL dan memasukkan payload berbahaya dalam fragmen.</p>
+<h3 id="github-cp-dos-denial-of-service-on-github">GitHub CP-DoS (Denial of Service on GitHub):</h3>
+<p>Dalam konteks ini, terjadi serangan <strong>CP-DoS</strong> pada <strong>GitHub</strong>. Pada serangan ini, si penyerang berhasil memanfaatkan kerentanan pada server <strong>GitHub</strong> sehingga menghasilkan respon caching dengan kode status <code>405 (Method Not Allowed)</code> yang tidak benar. Hal ini dilakukan dengan mengirimkan nilai yang buruk dalam header &ldquo;<code>content-type</code>&rdquo; pada permintaan yang dikirimkan ke server. Karena kunci cache server GitHub juga mencakup informasi cookie, maka serangan hanya dapat dilakukan pada pengguna yang tidak terotentikasi (tidak masuk log in) karena pengguna yang terotentikasi biasanya akan memiliki kunci cache yang berbeda karena adanya informasi session yang berbeda.</p>
+<h3 id="gitlab--gcp-cp-dos-denial-of-service-pada-gitlab-dan-google-cloud-platform">GitLab + GCP CP-DoS (Denial of Service pada GitLab dan Google Cloud Platform):</h3>
+<p>GitLab menggunakan <strong>GCP</strong> bucket untuk menyimpan konten statis seperti gambar, file <code>CSS</code>, dan file <code>JavaScript</code>. <strong>GCP Bucket</strong> mendukung header khusus seperti <code>x-http-method-override</code>, yang memungkinkan pengguna untuk mengganti metode <code>HTTP</code> yang sebenarnya dengan metode yang ditentukan dalam header.</p>
+<p>Dalam serangan ini, pengirim dapat mengirimkan header <strong>x-http-method-override</strong>: <code>HEAD</code> untuk memalsukan respons cache menjadi mengembalikan body respons yang kosong. Ini karena ketika permintaan asli dikirim dengan metode <code>HEAD</code>, server hanya mengirim header tanpa body.</p>
+<p>Selain itu, header <code>x-http-method-override</code> juga dapat mendukung metode <code>PURGE</code>, yang dapat digunakan untuk menghapus cache dari server. Namun, ini membutuhkan konfigurasi khusus di server dan biasanya hanya digunakan oleh administrator.</p>
+<h3 id="rack-middleware-ruby-on-rails">Rack Middleware (Ruby on rails)</h3>
+<p>Penerapan aplikasi <code>Ruby on Rails</code> seringkali disertai dengan <strong>middleware Rack</strong>. Kode Rack di bawah ini mengambil nilai dari <code>x-forwarded-scheme</code> dan menggunakannya sebagai skema permintaan (request). Ini berarti bahwa jika header <code>x-forwarded-scheme</code> dikirim dengan nilai yang berbeda dari <code>http</code> atau <code>https</code>, maka aplikasi <strong>Ruby on Rails</strong> akan menggunakan skema yang dikirim dalam header tersebut untuk memproses permintaan, dan ini dapat dimanipulasi oleh penyerang untuk melancarkan <strong>serangan cache poisoning</strong>.
+<img src="https://1517081779-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2F7SzKFXLVfy6OKHLfS12U%2Fimage.png?alt=media&amp;token=b375910e-18d7-4f13-87fd-284c24b19182" alt="">
+Pengiriman header <code>x-forwarded-scheme</code>: http akan menghasilkan pengalihan <code>301</code> ke lokasi yang sama yang akan menyebabkan <code>DoS (Denial of Service)</code> pada sumber daya tersebut seperti contoh di atas. Ini berarti server akan terus mengalihkan permintaan ke dirinya sendiri, yang dapat membebani server dan membuatnya tidak responsif untuk permintaan lain dari klien. Hal ini dapat memengaruhi ketersediaan layanan yang disediakan oleh server tersebut.
+<img src="https://1517081779-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2FQU4R2tBa4FTr8qjkYBee%2Fimage.png?alt=media&amp;token=d488c76d-a7e9-4f7d-8dd2-bc198c196369" alt="">
+aplikasi mungkin juga mendukung header <code>X-forwarded-host</code> dan mengalihkan pengguna ke host tersebut, sehingga memungkinkan untuk memuat file <code>javascript</code> dari server penyerang. Hal ini dapat menyebabkan penyerangan yang disebut sebagai &ldquo;<strong>Javascript injection</strong>&rdquo; atau &ldquo;<strong>Cross-site scripting (XSS)</strong>&rdquo; di mana attacker dapat memanipulasi javascript di dalam website korban untuk melakukan tindakan berbahaya seperti mencuri data pengguna. Oleh karena itu, sangat penting untuk memeriksa dan mengamankan header seperti <code>X-forwarded-host</code> untuk mencegah serangan <strong>XSS</strong>.
+<img src="https://1517081779-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2F0rOr1vn590TphSAitrTO%2Fimage.png?alt=media&amp;token=14667f89-c382-4a33-8b5f-7270ca1e8c8e" alt=""></p>
+<h3 id="403-and-storage-buckets">403 and Storage Buckets</h3>
+<p>sebelumnya <strong>Cloudflare</strong> menggunakan cache untuk respons <code>403 (forbidden)</code> sehingga ketika seseorang mencoba mengakses S3 atau <code>Azure Storage Blobs</code> yang terbuka secara publik menggunakan <code>header Authorization</code> yang buruk, maka akan menghasilkan respons <code>403</code> yang dicache oleh <code>Cloudflare</code>. Namun, sekarang <code>Cloudflare</code> tidak lagi menggunakan cache untuk respons 403 tersebut, namun tetap bisa saja berhasil jika digunakan dengan proxy lain yang masih menggunakan cache untuk respons 403. Hal ini bisa menjadi masalah keamanan karena attacker masih bisa mengakses sumber daya terlarang meskipun sudah diatur sebagai 403.
+<img src="https://1517081779-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2FXn3REW6WK4OAo9nxZNxr%2Fimage.png?alt=media&amp;token=3fce5fa6-9ae1-4008-b508-75d6d5cac4ff" alt=""></p>
+<h3 id="injecting-keyed-parameters">Injecting Keyed Parameters</h3>
+<p>sering kali cache dikonfigurasi untuk hanya memasukkan parameter <code>GET</code> tertentu dalam kunci cache. Contohnya, <code>Fastly</code> menggunakan <code>Varnish</code> untuk meng-cache parameter ukuran dalam permintaan, namun jika Anda mengirimkan parameter <code>&quot;siz%65&quot;</code> dengan nilai yang salah, kunci cache akan dibuat dengan parameter ukuran yang benar, tetapi backend akan menggunakan nilai di dalam parameter yang di-<code>URL encode</code> tersebut. Dengan demikian, ini dapat menyebabkan masalah dalam sistem cache dan menyebabkan potensi kerentanan keamanan.
+<img src="https://1517081779-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2FYqNjA28ra88hyl7jnFLd%2Fimage.png?alt=media&amp;token=86555be0-7afc-4891-af6f-263b3e0355d2" alt=""></p>
+<p>saat melakukan URL encoding pada parameter <code>size</code> yang kedua, akan menyebabkan cache mengabaikannya tetapi akan digunakan oleh backend. Jika parameter tersebut diberikan nilai <code>0</code>, maka akan menghasilkan respon <code>400 Bad Request</code> yang bisa di-cache. Dalam hal ini, penting untuk memperhatikan bahwa terkadang cache hanya menyertakan parameter <code>GET</code> tertentu dalam kunci cache, sehingga mengubah nilai parameter atau cara <code>encoding-nya</code> dapat memengaruhi kinerja cache dan backend.</p>
+<h3 id="user-agent-rules">User Agent Rules</h3>
+<p><code>User Agent Rules</code> adalah aturan yang digunakan oleh <code>developer</code> untuk memblokir request yang cocok dengan user-agent tertentu. Hal ini dilakukan untuk mencegah serangan dari beberapa tool seperti <strong>FFUF</strong> atau <strong>Nuclei</strong> yang sering menghasilkan banyak traffic. Namun, ironisnya, penggunaan aturan ini dapat memicu masalah <strong>cache poisoning</strong> dan <strong>DoS</strong> yang tidak diinginkan. Misalnya, jika user-agent yang diblokir di-cache oleh server, maka serangan yang dilakukan dengan mengubah user-agent dapat menyebabkan cache poisoning dan memicu DoS. Oleh karena itu, penggunaan User Agent Rules harus dilakukan dengan hati-hati dan dengan mempertimbangkan dampak yang mungkin terjadi.
+<img src="https://1517081779-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2F2bsD61zdCgV6sJWB6usI%2Fimage.png?alt=media&amp;token=34e34a37-bce9-4be9-9dbf-fde24c8acb47" alt="">
+teknik ini berhasil digunakan pada beberapa target dengan user-agent dari berbagai alat atau scanner yang berbeda.</p>
+<h3 id="illegal-header-fields">Illegal Header Fields</h3>
+<p>Format nama header dijelaskan dalam <strong><a href="https://datatracker.ietf.mrg/doc/html/rfc7230">RFC7230</a></strong> sebagai berikut:
+<img src="https://1517081779-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2Fc7cl5s4ThA8cOmc9aLOT%2Fimage.png?alt=media&amp;token=088c2512-cc6f-4b05-b564-65ec45bd8974" alt="">
+dalam teori, jika sebuah nama header mengandung karakter selain yang terdaftar dalam <code>tchar</code>, maka seharusnya akan ditolak dengan respons <strong>400 Bad Request</strong>. Namun dalam praktiknya, tidak semua server mematuhi <strong>RFC</strong> ini. Cara paling mudah untuk mengeksploitasi hal ini adalah dengan menargetkan <code>Akamai</code> yang tidak menolak header yang tidak valid, tetapi meneruskannya dan menyimpan setiap kesalahan <code>400</code> sebagai cache selama header <code>cache-control</code> tidak hadir. Dengan cara ini, penyerang dapat memanfaatkan header yang tidak valid untuk melakukan serangan cache poisoning dan memicu respons error 400.
+<img src="https://1517081779-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2FjkWgxwVph2Ec8x8xaYst%2Fimage.png?alt=media&amp;token=2cad7300-3ddc-4719-982b-c99fe2abab25" alt=""></p>
+<p>Pengiriman header yang berisi karakter ilegal, seperti <code>backslash (\)</code>, dapat menyebabkan kesalahan <strong>400 Bad Request</strong> yang dapat dicache. Hal ini adalah salah satu pola yang paling sering diidentifikasi dalam pengujian yang dilakukan. Dengan mengirimkan header seperti itu, dapat memanfaatkan celah dalam pengamanan server untuk melakukan serangan terhadap sistem yang dituju.</p>
+<h3 id="cari-header-baru">Cari header baru</h3>
+<p><a href="https://gist.github.com/iustin24/92a5ba76ee436c85716f003dda8eecc6">https://gist.github.com/iustin24/92a5ba76ee436c85716f003dda8eecc6</a></p>
+<h3 id="cache-deception">Cache Deception</h3>
+<p>Teknik ini bertujuan untuk membuat klien <code>(client)</code> memuat sumber daya yang akan disimpan oleh cache dengan informasi sensitif dari pengguna lain.</p>
+<p>Pertama-tama, perlu dicatat bahwa ekstensi seperti <code>.css</code>, <code>.js</code>, <code>.png</code>, dan sejenisnya biasanya dikonfigurasi untuk disimpan dalam cache. Oleh karena itu, jika Anda mengakses <code>www.example.com/profile.php/nonexistent.js</code>, cache kemungkinan akan menyimpan respons tersebut karena melihat ekstensi .<code>js</code>. Namun, jika aplikasi membalas dengan konten sensitif pengguna yang disimpan di <code>www.example.com/profile.php</code>, Anda dapat mencuri konten itu dari pengguna lain.</p>
+<p><strong>Hal lain yang perlu di uji :</strong></p>
+<ul>
+<li><em><code>www.example.com/profile.php/.js</code></em></li>
+<li><em><code>www.example.com/profile.php/.css</code></em></li>
+<li><em><code>www.example.com/profile.php/test.js</code></em></li>
+<li><em><code>www.example.com/profile.php/../test.js</code></em></li>
+<li><em><code>www.example.com/profile.php/%2e%2e/test.js</code></em></li>
+<li><em>Use lesser known extensions such as</em>  <code>.avif</code></li>
+</ul>
+<p>contoh kasus lain dalam melakukan serangan <strong>Cache Deception</strong> <a href="https://hackerone.com/reports/593712">dapat kamu temui disini</a>,  jika mengakses sebuah halaman yang tidak ada, misalnya <code>http://www.example.com/home.php/non-existent.css</code>, maka konten dari <code>http://www.example.com/home.php</code> dengan informasi sensitif pengguna) akan dikembalikan dan server cache akan menyimpan hasilnya. Kemudian, penyerang dapat mengakses <code>http://www.example.com/home.php/non-existent.css</code> di browser mereka sendiri dan mengamati informasi rahasia pengguna yang telah mengakses sebelumnya. Penting untuk diperhatikan bahwa server cache harus dikonfigurasi untuk menyimpan file berdasarkan ekstensi file <code>(.css)</code> dan bukan berdasarkan tipe konten.</p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#cache-poisoning-dan-cache-deception">Cache Poisoning dan Cache Deception</a></li>
+    <li><a href="#contoh-exploit">Contoh Exploit</a>
+      <ul>
+        <li><a href="#easiest-exampleeasiest-example">Easiest example<a href="#easiest-example"></a></a></li>
+        <li><a href="#menggunakan-pemalsuan-web-cache-untuk-mengeksploitasi-kerentanan-penanganan-cookie">Menggunakan pemalsuan web cache untuk mengeksploitasi kerentanan penanganan cookie</a></li>
+        <li><a href="#penggunaan-beberapa-header-untuk-mengeksploitasi-kerentanan-keracunan-cache-web">Penggunaan beberapa header untuk mengeksploitasi kerentanan keracunan cache web</a></li>
+        <li><a href="#mengeksploitasi-dengan-header-vary-yang-terbatas">Mengeksploitasi dengan header Vary yang terbatas</a></li>
+        <li><a href="#mengeksploitasi-keracunan-cache-http-dengan-menyalahgunakan-http-request-smuggling">Mengeksploitasi Keracunan Cache HTTP dengan menyalahgunakan HTTP Request Smuggling.</a></li>
+        <li><a href="#pengujian-otomatis-untuk-web-cache-poisoning">Pengujian otomatis untuk Web Cache Poisoning</a></li>
+      </ul>
+    </li>
+    <li><a href="#contoh-kerentanan">Contoh Kerentanan</a>
+      <ul>
+        <li><a href="#github-cp-dos-denial-of-service-on-github">GitHub CP-DoS (Denial of Service on GitHub):</a></li>
+        <li><a href="#gitlab--gcp-cp-dos-denial-of-service-pada-gitlab-dan-google-cloud-platform">GitLab + GCP CP-DoS (Denial of Service pada GitLab dan Google Cloud Platform):</a></li>
+        <li><a href="#rack-middleware-ruby-on-rails">Rack Middleware (Ruby on rails)</a></li>
+        <li><a href="#403-and-storage-buckets">403 and Storage Buckets</a></li>
+        <li><a href="#injecting-keyed-parameters">Injecting Keyed Parameters</a></li>
+        <li><a href="#user-agent-rules">User Agent Rules</a></li>
+        <li><a href="#illegal-header-fields">Illegal Header Fields</a></li>
+        <li><a href="#cari-header-baru">Cari header baru</a></li>
+        <li><a href="#cache-deception">Cache Deception</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="https://ifulxploit.github.io/tags/cache-poisoning" target="_blank">Cache Poisoning</a></li>
+              
+              <li class="list-inline-item"><a href="https://ifulxploit.github.io/tags/cache-deception" target="_blank">cache deception</a></li>
+              
+              <li class="list-inline-item"><a href="https://ifulxploit.github.io/tags/serangan-web" target="_blank">serangan web</a></li>
+              
+              <li class="list-inline-item"><a href="https://ifulxploit.github.io/tags/keamanan-web" target="_blank">keamanan web</a></li>
+              
+              <li class="list-inline-item"><a href="https://ifulxploit.github.io/tags/informasi-sensitif" target="_blank">informasi sensitif</a></li>
+              
+              <li class="list-inline-item"><a href="https://ifulxploit.github.io/tags/teknik-hacking" target="_blank">teknik hacking</a></li>
+              
+              <li class="list-inline-item"><a href="https://ifulxploit.github.io/tags/cache-server" target="_blank">cache server</a></li>
+              
+              <li class="list-inline-item"><a href="https://ifulxploit.github.io/tags/http-request-smuggling" target="_blank">HTTP request smuggling</a></li>
+              
+              <li class="list-inline-item"><a href="https://ifulxploit.github.io/tags/contoh-serangan" target="_blank">contoh serangan</a></li>
+              
+              <li class="list-inline-item"><a href="https://ifulxploit.github.io/tags/pencegahan-serangan" target="_blank">pencegahan serangan</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=Apa%20Itu%20Cache%20Poisoning%20Dan%20Cache%20Deception%20%3f%20Dan%20Cara%20Mengatasinya&url=https%3a%2f%2fifulxploit.github.io%2fblogs%2fapa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=Apa%20Itu%20Cache%20Poisoning%20Dan%20Cache%20Deception%20%3f%20Dan%20Cara%20Mengatasinya: https%3a%2f%2fifulxploit.github.io%2fblogs%2fapa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="mailto:?subject=Apa%20Itu%20Cache%20Poisoning%20Dan%20Cache%20Deception%20%3f%20Dan%20Cara%20Mengatasinya&amp;body=Check out this site https%3a%2f%2fifulxploit.github.io%2fblogs%2fapa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya%2f">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-2">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "ifulxploit-1" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  console.log(topScroll);
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+
+  </div><footer>
+    <div class="container py-3" id="recent-posts">
+    
+    <div class="h3 text-center text-secondary py-3">Recent posts</div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/apa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Apa Itu Cache Poisoning Dan Cache Deception ? Dan Cara Mengatasinya">Apa Itu Cache Poisoning …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>Cache Poisoning dan Cache Deception Cache Poisoning dan Cache Deception adalah jenis serangan keamanan pada aplikasi web yang menggunakan cache. Meskipun keduanya berhubungan dengan cache, namun keduanya memiliki perbedaan.
+Cache Poisoning terjadi ketika seorang penyerang memasukkan konten jahat ke …</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">April 12, 2023</span>
+                    <a href="/blogs/apa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/cara-melewati-verifikasi-captcha-dengan-mudah/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Cara Melewati Verifikasi Captcha Dengan Mudah">Cara Melewati Verifikasi …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>Captcha Bypass: Cara Melewati Verifikasi Captcha Captcha atau Completely Automated Public Turing test to tell Computers and Humans Apart, adalah sebuah tes keamanan yang digunakan untuk memastikan bahwa pengguna adalah manusia, bukan bot atau program komputer. Namun, terkadang kita membutuhkan cara …</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">April 12, 2023</span>
+                    <a href="/blogs/cara-melewati-verifikasi-captcha-dengan-mudah/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/tips-bypass-payment-process-secara-efektif-dengan-paypal-dan-coinpayments/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Tips Bypass Payment Process Secara Efektif Dengan PayPal Dan CoinPayments">Tips Bypass Payment …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>Membajak Proses Pembayaran Ketika berbelanja online, pembayaran menjadi bagian yang penting dan harus dijaga keamanannya. Namun, terkadang ada orang jahat yang mencoba mencuri data pembayaran Anda dengan melakukan pembajakan proses pembayaran. Salah satu teknik yang digunakan oleh para penjahat ini …</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">April 12, 2023</span>
+                    <a href="/blogs/tips-bypass-payment-process-secara-efektif-dengan-paypal-dan-coinpayments/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</div><div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/ifulxploit" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/saiful-miqdar-7050511b1/" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <a href="https://twitter.com" aria-label="twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+            <path fill="#03a9f4"
+                d="M42,37c0,2.762-2.239,5-5,5H11c-2.762,0-5-2.238-5-5V11c0-2.762,2.238-5,5-5h26c2.761,0,5,2.238,5,5 V37z" />
+            <path fill="#fff"
+                d="M36,17.12c-0.882,0.391-1.999,0.758-3,0.88c1.018-0.604,2.633-1.862,3-3 c-0.951,0.559-2.671,1.156-3.793,1.372C31.311,15.422,30.033,15,28.617,15C25.897,15,24,17.305,24,20v2c-4,0-7.9-3.047-10.327-6 c-0.427,0.721-0.667,1.565-0.667,2.457c0,1.819,1.671,3.665,2.994,4.543c-0.807-0.025-2.335-0.641-3-1c0,0.016,0,0.036,0,0.057 c0,2.367,1.661,3.974,3.912,4.422C16.501,26.592,16,27,14.072,27c0.626,1.935,3.773,2.958,5.928,3c-1.686,1.307-4.692,2-7,2 c-0.399,0-0.615,0.022-1-0.023C14.178,33.357,17.22,34,20,34c9.057,0,14-6.918,14-13.37c0-0.212-0.007-0.922-0.018-1.13 C34.95,18.818,35.342,18.104,36,17.12" />
+        </svg>
+    </a>
+    
+
+    
+    <a href="https://instagram.com/saiful_mqdr" aria-label="instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+            <radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fd5" />
+                <stop offset=".328" stop-color="#ff543f" />
+                <stop offset=".348" stop-color="#fc5245" />
+                <stop offset=".504" stop-color="#e64771" />
+                <stop offset=".643" stop-color="#d53e91" />
+                <stop offset=".761" stop-color="#cc39a4" />
+                <stop offset=".841" stop-color="#c837ab" />
+            </radialGradient>
+            <path fill="url(#yOrnnhliCrdS2gy~4tD8ma)"
+                d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z" />
+            <radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813"
+                gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#4168c9" />
+                <stop offset=".999" stop-color="#4168c9" stop-opacity="0" />
+            </radialGradient>
+            <path fill="url(#yOrnnhliCrdS2gy~4tD8mb)"
+                d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z" />
+            <path fill="#fff"
+                d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z" />
+            <circle cx="31.5" cy="16.5" r="1.5" fill="#fff" />
+            <path fill="#fff"
+                d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z" />
+        </svg>
+    </a>
+    
+
+    
+    <a href="https://www.facebook.com/saiful.miqdar.31/" aria-label="facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+            <path fill="#3F51B5"
+                d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z" />
+            <path fill="#FFF"
+                d="M34.368,25H31v13h-5V25h-3v-4h3v-2.41c0.002-3.508,1.459-5.59,5.592-5.59H35v4h-2.287C31.104,17,31,17.6,31,18.723V21h4L34.368,25z" />
+        </svg>
+    </a>
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            <div class="pb-2">
+                <a href="https://ifulxploit.github.io" title="Saiful Miqdar">
+                    <img alt="Footer logo" src="/fav.png"
+                        height="40px" width="40px">
+                </a>
+            </div>
+            &copy; 2023  All Rights Reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div></footer>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+<script>
+    let loadingIcons;
+
+    function loading() {
+        myVar = setTimeout(showPage, 100);
+    }
+
+    function showPage() {
+        try{
+            document.getElementById("loading-icons").style.display = "block";
+        } catch(err) {}
+    }
+</script></body>
+
+</html>

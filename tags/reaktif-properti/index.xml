@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reaktif Properti on Saiful Miqdar</title>
+    <link>https://ifulxploit.github.io/tags/reaktif-properti/</link>
+    <description>Recent content in Reaktif Properti on Saiful Miqdar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Apr 2023 22:32:37 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/reaktif-properti/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belajar LIT Cara Membuat Components Pada Lit Framework</title>
+      <link>https://ifulxploit.github.io/blogs/belajar-lit-cara-membuat-components-pada-lit-framework/</link>
+      <pubDate>Tue, 11 Apr 2023 22:32:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/belajar-lit-cara-membuat-components-pada-lit-framework/</guid>
+      <description>Komponen Lit : Apa itu dan Cara Membuat Komponen Lit ? Komponen Lit adalah sebuah UI yang dapat digunakan kembali. Anda dapat menganggap komponen Lit sebagai kontainer yang memiliki beberapa state dan menampilkan UI berdasarkan pada state tersebut. Ia juga dapat bereaksi terhadap input pengguna, melepas event - apapun yang diharapkan dari sebuah komponen UI. Komponen Lit juga merupakan elemen HTML, sehingga ia memiliki semua API elemen standar.
+Membuat komponen Lit melibatkan beberapa konsep:</description>
+    </item>
+    
+  </channel>
+</rss>

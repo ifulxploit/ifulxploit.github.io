@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Komponen dasar on Saiful Miqdar</title>
+    <link>https://ifulxploit.github.io/tags/komponen-dasar/</link>
+    <description>Recent content in Komponen dasar on Saiful Miqdar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Apr 2023 21:01:36 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/komponen-dasar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belajar LIT: Pengenalan Dasar</title>
+      <link>https://ifulxploit.github.io/blogs/belajar-lit-pengenalan-dasar/</link>
+      <pubDate>Tue, 11 Apr 2023 21:01:36 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/belajar-lit-pengenalan-dasar/</guid>
+      <description>Belajar LIT: Pengenalan Dasar LIT adalah sebuah framework web yang dikembangkan untuk mempermudah proses pengembangan aplikasi web dengan cara yang sederhana, ringan, dan fleksibel.
+Persiapan Lingkungan Pengembangan Sebelum memulai pengembangan menggunakan LIT, ada beberapa hal yang perlu diperhatikan terkait lingkungan pengembangan yang akan digunakan, diantaranya:
+ Pastikan Node.js sudah terinstall di komputer. Anda bisa memeriksa apakah Node.js sudah terinstall dengan menjalankan perintah node -v di terminal. Install LIT CLI dengan menjalankan perintah npm install -g @lit/cli di terminal.</description>
+    </item>
+    
+  </channel>
+</rss>

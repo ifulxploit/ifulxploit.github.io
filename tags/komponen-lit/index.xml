@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Komponen Lit on Saiful Miqdar</title>
+    <link>https://ifulxploit.github.io/tags/komponen-lit/</link>
+    <description>Recent content in Komponen Lit on Saiful Miqdar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Apr 2023 22:44:20 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/komponen-lit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belajar LIT Cara Mendefinisikan Komponen</title>
+      <link>https://ifulxploit.github.io/blogs/belajar-lit-cara-mendefinisikan-komponen/</link>
+      <pubDate>Tue, 11 Apr 2023 22:44:20 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/belajar-lit-cara-mendefinisikan-komponen/</guid>
+      <description>Pengenalan Komponen Lit Komponen Lit adalah sebuah UI (User Interface) yang dapat digunakan kembali. Anda dapat menganggap komponen Lit sebagai sebuah kontainer yang memiliki beberapa state dan menampilkan UI berdasarkan pada state tersebut. Komponen Lit juga dapat bereaksi terhadap input pengguna dan melepas event - apapun yang diharapkan dari sebuah komponen UI. Selain itu, komponen Lit juga merupakan elemen HTML, sehingga ia memiliki semua API elemen standar.
+Definisi Komponen Untuk mendefinisikan sebuah komponen Lit, kita perlu membuat sebuah kelas yang meng-extend LitElement dan mendaftarkan kelas tersebut pada browser:</description>
+    </item>
+    
+    <item>
+      <title>Belajar LIT Cara Membuat Components Pada Lit Framework</title>
+      <link>https://ifulxploit.github.io/blogs/belajar-lit-cara-membuat-components-pada-lit-framework/</link>
+      <pubDate>Tue, 11 Apr 2023 22:32:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/belajar-lit-cara-membuat-components-pada-lit-framework/</guid>
+      <description>Komponen Lit : Apa itu dan Cara Membuat Komponen Lit ? Komponen Lit adalah sebuah UI yang dapat digunakan kembali. Anda dapat menganggap komponen Lit sebagai kontainer yang memiliki beberapa state dan menampilkan UI berdasarkan pada state tersebut. Ia juga dapat bereaksi terhadap input pengguna, melepas event - apapun yang diharapkan dari sebuah komponen UI. Komponen Lit juga merupakan elemen HTML, sehingga ia memiliki semua API elemen standar.
+Membuat komponen Lit melibatkan beberapa konsep:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brute-Force Attack on Saiful Miqdar</title>
+    <link>https://ifulxploit.github.io/tags/brute-force-attack/</link>
+    <description>Recent content in Brute-Force Attack on Saiful Miqdar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Apr 2023 04:12:10 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/brute-force-attack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Bypass 2FA: 4 Teknik yang Sering Digunakan dan Cara Menghindarinya</title>
+      <link>https://ifulxploit.github.io/blogs/cara-bypass-2fa-4-teknik-yang-sering-digunakan-dan-cara-menghindarinya/</link>
+      <pubDate>Wed, 12 Apr 2023 04:12:10 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/cara-bypass-2fa-4-teknik-yang-sering-digunakan-dan-cara-menghindarinya/</guid>
+      <description>Sebelum membahas cara bypass 2FA, pertama-tama kita perlu memahami apa itu 2FA dan mengapa itu penting dalam keamanan web. 2FA singkatan dari Two-Factor Authentication atau autentikasi dua faktor, merupakan metode keamanan yang memerlukan dua cara untuk memverifikasi identitas pengguna sebelum memberikan akses ke akun atau sistem. Biasanya, dua faktor ini terdiri dari sesuatu yang dimiliki pengguna, seperti password, dan sesuatu yang hanya dimiliki oleh pengguna, seperti token yang dihasilkan oleh aplikasi autentikasi.</description>
+    </item>
+    
+  </channel>
+</rss>
