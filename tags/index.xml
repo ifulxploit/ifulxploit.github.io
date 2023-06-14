@@ -6,7 +6,439 @@
     <description>Recent content in Tags on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Apr 2023 07:15:09 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jun 2023 21:54:12 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub</title>
+      <link>https://ifulxploit.github.io/tags/github/</link>
+      <pubDate>Wed, 14 Jun 2023 21:54:12 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitLab</title>
+      <link>https://ifulxploit.github.io/tags/gitlab/</link>
+      <pubDate>Wed, 14 Jun 2023 21:54:12 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/gitlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kolaborasi</title>
+      <link>https://ifulxploit.github.io/tags/kolaborasi/</link>
+      <pubDate>Wed, 14 Jun 2023 21:54:12 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/kolaborasi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pengembangan perangkat lunak</title>
+      <link>https://ifulxploit.github.io/tags/pengembangan-perangkat-lunak/</link>
+      <pubDate>Wed, 14 Jun 2023 21:54:12 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/pengembangan-perangkat-lunak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Push dan pull</title>
+      <link>https://ifulxploit.github.io/tags/push-dan-pull/</link>
+      <pubDate>Wed, 14 Jun 2023 21:54:12 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/push-dan-pull/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote repository</title>
+      <link>https://ifulxploit.github.io/tags/remote-repository/</link>
+      <pubDate>Wed, 14 Jun 2023 21:54:12 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/remote-repository/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Commit</title>
+      <link>https://ifulxploit.github.io/tags/commit/</link>
+      <pubDate>Wed, 14 Jun 2023 21:51:30 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/commit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://ifulxploit.github.io/tags/git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:51:30 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pesan commit</title>
+      <link>https://ifulxploit.github.io/tags/pesan-commit/</link>
+      <pubDate>Wed, 14 Jun 2023 21:51:30 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/pesan-commit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Staging area</title>
+      <link>https://ifulxploit.github.io/tags/staging-area/</link>
+      <pubDate>Wed, 14 Jun 2023 21:51:30 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/staging-area/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beralih antara branch</title>
+      <link>https://ifulxploit.github.io/tags/beralih-antara-branch/</link>
+      <pubDate>Wed, 14 Jun 2023 21:48:52 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/beralih-antara-branch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Branching dalam Git</title>
+      <link>https://ifulxploit.github.io/tags/branching-dalam-git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:48:52 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/branching-dalam-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isolasi perubahan kode</title>
+      <link>https://ifulxploit.github.io/tags/isolasi-perubahan-kode/</link>
+      <pubDate>Wed, 14 Jun 2023 21:48:52 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/isolasi-perubahan-kode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kolaborasi tim pengembang</title>
+      <link>https://ifulxploit.github.io/tags/kolaborasi-tim-pengembang/</link>
+      <pubDate>Wed, 14 Jun 2023 21:48:52 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/kolaborasi-tim-pengembang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Membuat branch baru</title>
+      <link>https://ifulxploit.github.io/tags/membuat-branch-baru/</link>
+      <pubDate>Wed, 14 Jun 2023 21:48:52 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/membuat-branch-baru/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Menggabungkan branch</title>
+      <link>https://ifulxploit.github.io/tags/menggabungkan-branch/</link>
+      <pubDate>Wed, 14 Jun 2023 21:48:52 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/menggabungkan-branch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Merge dalam Git</title>
+      <link>https://ifulxploit.github.io/tags/merge-dalam-git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:48:52 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/merge-dalam-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pemecahan masalah</title>
+      <link>https://ifulxploit.github.io/tags/pemecahan-masalah/</link>
+      <pubDate>Wed, 14 Jun 2023 21:48:52 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/pemecahan-masalah/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Percobaan dan uji coba</title>
+      <link>https://ifulxploit.github.io/tags/percobaan-dan-uji-coba/</link>
+      <pubDate>Wed, 14 Jun 2023 21:48:52 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/percobaan-dan-uji-coba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stabilitas kode sumber</title>
+      <link>https://ifulxploit.github.io/tags/stabilitas-kode-sumber/</link>
+      <pubDate>Wed, 14 Jun 2023 21:48:52 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/stabilitas-kode-sumber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git init</title>
+      <link>https://ifulxploit.github.io/tags/git-init/</link>
+      <pubDate>Wed, 14 Jun 2023 21:42:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/git-init/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inisialisasi repository baru</title>
+      <link>https://ifulxploit.github.io/tags/inisialisasi-repository-baru/</link>
+      <pubDate>Wed, 14 Jun 2023 21:42:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/inisialisasi-repository-baru/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inisialisasi repository Git</title>
+      <link>https://ifulxploit.github.io/tags/inisialisasi-repository-git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:42:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/inisialisasi-repository-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Konfigurasi repository Git</title>
+      <link>https://ifulxploit.github.io/tags/konfigurasi-repository-git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:42:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/konfigurasi-repository-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Menghubungkan repository Git</title>
+      <link>https://ifulxploit.github.io/tags/menghubungkan-repository-git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:42:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/menghubungkan-repository-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Repository Git lokal</title>
+      <link>https://ifulxploit.github.io/tags/repository-git-lokal/</link>
+      <pubDate>Wed, 14 Jun 2023 21:42:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/repository-git-lokal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sistem kontrol versi</title>
+      <link>https://ifulxploit.github.io/tags/sistem-kontrol-versi/</link>
+      <pubDate>Wed, 14 Jun 2023 21:42:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/sistem-kontrol-versi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alamat email Git</title>
+      <link>https://ifulxploit.github.io/tags/alamat-email-git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/alamat-email-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Commit Git</title>
+      <link>https://ifulxploit.github.io/tags/commit-git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/commit-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dokumentasi Git</title>
+      <link>https://ifulxploit.github.io/tags/dokumentasi-git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/dokumentasi-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git Bash</title>
+      <link>https://ifulxploit.github.io/tags/git-bash/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/git-bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git di Linux</title>
+      <link>https://ifulxploit.github.io/tags/git-di-linux/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/git-di-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git di macOS</title>
+      <link>https://ifulxploit.github.io/tags/git-di-macos/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/git-di-macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git di Windows</title>
+      <link>https://ifulxploit.github.io/tags/git-di-windows/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/git-di-windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homebrew</title>
+      <link>https://ifulxploit.github.io/tags/homebrew/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/homebrew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instalasi Git</title>
+      <link>https://ifulxploit.github.io/tags/instalasi-git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/instalasi-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Konfigurasi Git</title>
+      <link>https://ifulxploit.github.io/tags/konfigurasi-git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/konfigurasi-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nama pengguna Git</title>
+      <link>https://ifulxploit.github.io/tags/nama-pengguna-git/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/nama-pengguna-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal Linux</title>
+      <link>https://ifulxploit.github.io/tags/terminal-linux/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/terminal-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Branch</title>
+      <link>https://ifulxploit.github.io/tags/branch/</link>
+      <pubDate>Wed, 14 Jun 2023 21:28:31 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/branch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Checkout</title>
+      <link>https://ifulxploit.github.io/tags/checkout/</link>
+      <pubDate>Wed, 14 Jun 2023 21:28:31 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/checkout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conflict</title>
+      <link>https://ifulxploit.github.io/tags/conflict/</link>
+      <pubDate>Wed, 14 Jun 2023 21:28:31 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/conflict/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distribusi</title>
+      <link>https://ifulxploit.github.io/tags/distribusi/</link>
+      <pubDate>Wed, 14 Jun 2023 21:28:31 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/distribusi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kecepatan</title>
+      <link>https://ifulxploit.github.io/tags/kecepatan/</link>
+      <pubDate>Wed, 14 Jun 2023 21:28:31 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/kecepatan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Merge</title>
+      <link>https://ifulxploit.github.io/tags/merge/</link>
+      <pubDate>Wed, 14 Jun 2023 21:28:31 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/merge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perbedaan</title>
+      <link>https://ifulxploit.github.io/tags/perbedaan/</link>
+      <pubDate>Wed, 14 Jun 2023 21:28:31 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/perbedaan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pull request</title>
+      <link>https://ifulxploit.github.io/tags/pull-request/</link>
+      <pubDate>Wed, 14 Jun 2023 21:28:31 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/pull-request/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Repository</title>
+      <link>https://ifulxploit.github.io/tags/repository/</link>
+      <pubDate>Wed, 14 Jun 2023 21:28:31 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/tags/repository/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cache deception</title>
       <link>https://ifulxploit.github.io/tags/cache-deception/</link>

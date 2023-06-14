@@ -2,10 +2,178 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ifulxploit.github.io/blogs/apa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya/</loc>
-    <lastmod>2023-04-12T07:15:09+07:00</lastmod>
-  </url><url>
     <loc>https://ifulxploit.github.io/blogs/</loc>
+    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/github/</loc>
+    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/gitlab/</loc>
+    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/</loc>
+    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/kolaborasi/</loc>
+    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/blogs/pemahaman-tentang-remote-repository-menghubungkan-dan-berkolaborasi-dengan-github-atau-gitlab/</loc>
+    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/pengembangan-perangkat-lunak/</loc>
+    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/push-dan-pull/</loc>
+    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/remote-repository/</loc>
+    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/</loc>
+    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/commit/</loc>
+    <lastmod>2023-06-14T21:51:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/git/</loc>
+    <lastmod>2023-06-14T21:51:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/blogs/melakukan-commit-menambahkan-perubahan-ke-repository/</loc>
+    <lastmod>2023-06-14T21:51:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/pesan-commit/</loc>
+    <lastmod>2023-06-14T21:51:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/staging-area/</loc>
+    <lastmod>2023-06-14T21:51:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/beralih-antara-branch/</loc>
+    <lastmod>2023-06-14T21:48:52+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/branching-dalam-git/</loc>
+    <lastmod>2023-06-14T21:48:52+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/isolasi-perubahan-kode/</loc>
+    <lastmod>2023-06-14T21:48:52+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/kolaborasi-tim-pengembang/</loc>
+    <lastmod>2023-06-14T21:48:52+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/membuat-branch-baru/</loc>
+    <lastmod>2023-06-14T21:48:52+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/menggabungkan-branch/</loc>
+    <lastmod>2023-06-14T21:48:52+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/merge-dalam-git/</loc>
+    <lastmod>2023-06-14T21:48:52+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/blogs/pemahaman-tentang-branch-memaksimalkan-pengembangan-perangkat-lunak/</loc>
+    <lastmod>2023-06-14T21:48:52+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/pemecahan-masalah/</loc>
+    <lastmod>2023-06-14T21:48:52+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/percobaan-dan-uji-coba/</loc>
+    <lastmod>2023-06-14T21:48:52+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/stabilitas-kode-sumber/</loc>
+    <lastmod>2023-06-14T21:48:52+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/git-init/</loc>
+    <lastmod>2023-06-14T21:42:37+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/blogs/inisialisasi-dan-konfigurasi-repository-membuat-repository-git-lokal/</loc>
+    <lastmod>2023-06-14T21:42:37+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/inisialisasi-repository-baru/</loc>
+    <lastmod>2023-06-14T21:42:37+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/inisialisasi-repository-git/</loc>
+    <lastmod>2023-06-14T21:42:37+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/konfigurasi-repository-git/</loc>
+    <lastmod>2023-06-14T21:42:37+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/menghubungkan-repository-git/</loc>
+    <lastmod>2023-06-14T21:42:37+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/repository-git-lokal/</loc>
+    <lastmod>2023-06-14T21:42:37+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/sistem-kontrol-versi/</loc>
+    <lastmod>2023-06-14T21:42:37+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/alamat-email-git/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/commit-git/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/dokumentasi-git/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/git-bash/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/git-di-linux/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/git-di-macos/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/git-di-windows/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/homebrew/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/blogs/instalasi-dan-konfigurasi-git-di-windows-linux-dan-macos/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/instalasi-git/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/konfigurasi-git/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/nama-pengguna-git/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/terminal-linux/</loc>
+    <lastmod>2023-06-14T21:38:24+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/branch/</loc>
+    <lastmod>2023-06-14T21:28:31+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/checkout/</loc>
+    <lastmod>2023-06-14T21:28:31+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/conflict/</loc>
+    <lastmod>2023-06-14T21:28:31+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/distribusi/</loc>
+    <lastmod>2023-06-14T21:28:31+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/kecepatan/</loc>
+    <lastmod>2023-06-14T21:28:31+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/blogs/memahami-apa-itu-git-dan-peranannya-dalam-pengembangan-perangkat-lunak/</loc>
+    <lastmod>2023-06-14T21:28:31+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/merge/</loc>
+    <lastmod>2023-06-14T21:28:31+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/perbedaan/</loc>
+    <lastmod>2023-06-14T21:28:31+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/pull-request/</loc>
+    <lastmod>2023-06-14T21:28:31+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/repository/</loc>
+    <lastmod>2023-06-14T21:28:31+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/blogs/apa-itu-cache-poisoning-dan-cache-deception-dan-cara-mengatasinya/</loc>
     <lastmod>2023-04-12T07:15:09+07:00</lastmod>
   </url><url>
     <loc>https://ifulxploit.github.io/tags/cache-deception/</loc>
@@ -23,9 +191,6 @@
     <loc>https://ifulxploit.github.io/tags/http-request-smuggling/</loc>
     <lastmod>2023-04-12T07:15:09+07:00</lastmod>
   </url><url>
-    <loc>https://ifulxploit.github.io/</loc>
-    <lastmod>2023-04-12T07:15:09+07:00</lastmod>
-  </url><url>
     <loc>https://ifulxploit.github.io/tags/informasi-sensitif/</loc>
     <lastmod>2023-04-12T07:15:09+07:00</lastmod>
   </url><url>
@@ -36,9 +201,6 @@
     <lastmod>2023-04-12T07:15:09+07:00</lastmod>
   </url><url>
     <loc>https://ifulxploit.github.io/tags/serangan-web/</loc>
-    <lastmod>2023-04-12T07:15:09+07:00</lastmod>
-  </url><url>
-    <loc>https://ifulxploit.github.io/tags/</loc>
     <lastmod>2023-04-12T07:15:09+07:00</lastmod>
   </url><url>
     <loc>https://ifulxploit.github.io/tags/teknik-hacking/</loc>

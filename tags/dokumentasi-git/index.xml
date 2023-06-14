@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dokumentasi Git on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</title>
+    <link>https://ifulxploit.github.io/tags/dokumentasi-git/</link>
+    <description>Recent content in Dokumentasi Git on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jun 2023 21:38:24 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/dokumentasi-git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalasi Dan Konfigurasi Git Di Windows Linux Dan MacOS</title>
+      <link>https://ifulxploit.github.io/blogs/instalasi-dan-konfigurasi-git-di-windows-linux-dan-macos/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/instalasi-dan-konfigurasi-git-di-windows-linux-dan-macos/</guid>
+      <description>Instalasi dan Konfigurasi Git di Windows, Linux, dan macOS Git adalah sistem kontrol versi yang populer dan kuat yang digunakan dalam pengembangan perangkat lunak. Untuk mulai menggunakan Git, langkah pertama yang perlu dilakukan adalah menginstal dan mengkonfigurasi Git di sistem operasi yang Anda gunakan. Berikut ini adalah panduan instalasi dan konfigurasi Git di Windows, Linux, dan macOS.
+Instalasi Git di Windows  Kunjungi situs resmi Git di https://git-scm.com/downloads. Unduh installer Git yang sesuai dengan versi Windows Anda (32-bit atau 64-bit).</description>
+    </item>
+    
+  </channel>
+</rss>

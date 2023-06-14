@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Staging area on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</title>
+    <link>https://ifulxploit.github.io/tags/staging-area/</link>
+    <description>Recent content in Staging area on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jun 2023 21:51:30 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/staging-area/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Melakukan Commit Menambahkan Perubahan Ke Repository</title>
+      <link>https://ifulxploit.github.io/blogs/melakukan-commit-menambahkan-perubahan-ke-repository/</link>
+      <pubDate>Wed, 14 Jun 2023 21:51:30 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/melakukan-commit-menambahkan-perubahan-ke-repository/</guid>
+      <description>Melakukan Commit: Menambahkan Perubahan ke Repository Dalam pengembangan perangkat lunak dengan Git, melakukan commit merupakan langkah penting untuk menyimpan perubahan yang telah Anda buat ke repository. Dalam artikel ini, kami akan membahas tiga aspek kunci dalam melakukan commit yang efektif: menambahkan file ke staging area, melakukan commit untuk menyimpan perubahan, dan menulis pesan commit yang deskriptif dan informatif.
+1. Menambahkan File ke Staging Area Sebelum melakukan commit, Anda perlu menambahkan file yang ingin Anda sertakan ke dalam staging area.</description>
+    </item>
+    
+  </channel>
+</rss>

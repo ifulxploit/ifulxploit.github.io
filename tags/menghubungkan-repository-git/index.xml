@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Menghubungkan repository Git on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</title>
+    <link>https://ifulxploit.github.io/tags/menghubungkan-repository-git/</link>
+    <description>Recent content in Menghubungkan repository Git on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jun 2023 21:42:37 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/menghubungkan-repository-git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inisialisasi Dan Konfigurasi Repository Membuat Repository Git Lokal</title>
+      <link>https://ifulxploit.github.io/blogs/inisialisasi-dan-konfigurasi-repository-membuat-repository-git-lokal/</link>
+      <pubDate>Wed, 14 Jun 2023 21:42:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/inisialisasi-dan-konfigurasi-repository-membuat-repository-git-lokal/</guid>
+      <description>Inisialisasi dan Konfigurasi Repository: Membuat Repository Git Lokal Pendahuluan Dalam pengembangan perangkat lunak, penggunaan sistem kontrol versi sangat penting untuk melacak dan mengelola perubahan kode. Git, salah satu sistem kontrol versi yang populer, menawarkan fleksibilitas dan efisiensi dalam mengelola proyek. Bagian penting dari penggunaan Git adalah inisialisasi dan konfigurasi repository. Artikel ini akan membahas cara membuat repository Git lokal dan menginisialisasi repository baru atau menghubungkannya dengan repository yang sudah ada.</description>
+    </item>
+    
+  </channel>
+</rss>

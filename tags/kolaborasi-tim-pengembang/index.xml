@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kolaborasi tim pengembang on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</title>
+    <link>https://ifulxploit.github.io/tags/kolaborasi-tim-pengembang/</link>
+    <description>Recent content in Kolaborasi tim pengembang on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jun 2023 21:48:52 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/kolaborasi-tim-pengembang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pemahaman Tentang Branch Memaksimalkan Pengembangan Perangkat Lunak</title>
+      <link>https://ifulxploit.github.io/blogs/pemahaman-tentang-branch-memaksimalkan-pengembangan-perangkat-lunak/</link>
+      <pubDate>Wed, 14 Jun 2023 21:48:52 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/pemahaman-tentang-branch-memaksimalkan-pengembangan-perangkat-lunak/</guid>
+      <description>Pemahaman tentang Branch: Memaksimalkan Pengembangan Perangkat Lunak Dalam pengembangan perangkat lunak, Git memberikan fitur yang sangat berguna yang disebut &amp;ldquo;branch&amp;rdquo;. Branch merupakan cabang yang memungkinkan pengembang untuk bekerja secara terpisah pada fitur, perbaikan bug, atau percobaan baru tanpa mengganggu kode sumber utama.
+Memahami Konsep Branch dan Manfaatnya dalam Pengembangan Perangkat Lunak Branch adalah salinan dari kode sumber yang ada dalam repository. Dalam branch ini, pengembang dapat membuat perubahan tanpa mempengaruhi kode sumber utama atau branch lainnya.</description>
+    </item>
+    
+  </channel>
+</rss>

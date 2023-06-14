@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kecepatan on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</title>
+    <link>https://ifulxploit.github.io/tags/kecepatan/</link>
+    <description>Recent content in Kecepatan on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jun 2023 21:28:31 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/kecepatan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memahami Apa Itu Git Dan Peranannya Dalam Pengembangan Perangkat Lunak</title>
+      <link>https://ifulxploit.github.io/blogs/memahami-apa-itu-git-dan-peranannya-dalam-pengembangan-perangkat-lunak/</link>
+      <pubDate>Wed, 14 Jun 2023 21:28:31 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/memahami-apa-itu-git-dan-peranannya-dalam-pengembangan-perangkat-lunak/</guid>
+      <description>Memahami Apa Itu Git dan Peranannya dalam Pengembangan Perangkat Lunak Dalam pengembangan perangkat lunak, Git telah menjadi salah satu alat yang sangat penting dan populer. Namun, sebelum kita dapat memanfaatkannya sepenuhnya, penting untuk memahami apa itu Git dan peranannya dalam pengembangan perangkat lunak.
+Git adalah sistem kontrol versi yang dirancang khusus untuk mengelola proyek pengembangan perangkat lunak. Ia memungkinkan pengembang untuk melacak, menyimpan, dan berkolaborasi dalam mengelola perubahan-perubahan yang terjadi pada kode sumber proyek.</description>
+    </item>
+    
+  </channel>
+</rss>

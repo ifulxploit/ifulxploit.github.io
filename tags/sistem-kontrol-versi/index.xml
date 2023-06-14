@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sistem kontrol versi on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</title>
+    <link>https://ifulxploit.github.io/tags/sistem-kontrol-versi/</link>
+    <description>Recent content in Sistem kontrol versi on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jun 2023 21:42:37 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/sistem-kontrol-versi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inisialisasi Dan Konfigurasi Repository Membuat Repository Git Lokal</title>
+      <link>https://ifulxploit.github.io/blogs/inisialisasi-dan-konfigurasi-repository-membuat-repository-git-lokal/</link>
+      <pubDate>Wed, 14 Jun 2023 21:42:37 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/inisialisasi-dan-konfigurasi-repository-membuat-repository-git-lokal/</guid>
+      <description>Inisialisasi dan Konfigurasi Repository: Membuat Repository Git Lokal Pendahuluan Dalam pengembangan perangkat lunak, penggunaan sistem kontrol versi sangat penting untuk melacak dan mengelola perubahan kode. Git, salah satu sistem kontrol versi yang populer, menawarkan fleksibilitas dan efisiensi dalam mengelola proyek. Bagian penting dari penggunaan Git adalah inisialisasi dan konfigurasi repository. Artikel ini akan membahas cara membuat repository Git lokal dan menginisialisasi repository baru atau menghubungkannya dengan repository yang sudah ada.</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Dan Konfigurasi Git Di Windows Linux Dan MacOS</title>
+      <link>https://ifulxploit.github.io/blogs/instalasi-dan-konfigurasi-git-di-windows-linux-dan-macos/</link>
+      <pubDate>Wed, 14 Jun 2023 21:38:24 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/instalasi-dan-konfigurasi-git-di-windows-linux-dan-macos/</guid>
+      <description>Instalasi dan Konfigurasi Git di Windows, Linux, dan macOS Git adalah sistem kontrol versi yang populer dan kuat yang digunakan dalam pengembangan perangkat lunak. Untuk mulai menggunakan Git, langkah pertama yang perlu dilakukan adalah menginstal dan mengkonfigurasi Git di sistem operasi yang Anda gunakan. Berikut ini adalah panduan instalasi dan konfigurasi Git di Windows, Linux, dan macOS.
+Instalasi Git di Windows  Kunjungi situs resmi Git di https://git-scm.com/downloads. Unduh installer Git yang sesuai dengan versi Windows Anda (32-bit atau 64-bit).</description>
+    </item>
+    
+    <item>
+      <title>Memahami Apa Itu Git Dan Peranannya Dalam Pengembangan Perangkat Lunak</title>
+      <link>https://ifulxploit.github.io/blogs/memahami-apa-itu-git-dan-peranannya-dalam-pengembangan-perangkat-lunak/</link>
+      <pubDate>Wed, 14 Jun 2023 21:28:31 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/memahami-apa-itu-git-dan-peranannya-dalam-pengembangan-perangkat-lunak/</guid>
+      <description>Memahami Apa Itu Git dan Peranannya dalam Pengembangan Perangkat Lunak Dalam pengembangan perangkat lunak, Git telah menjadi salah satu alat yang sangat penting dan populer. Namun, sebelum kita dapat memanfaatkannya sepenuhnya, penting untuk memahami apa itu Git dan peranannya dalam pengembangan perangkat lunak.
+Git adalah sistem kontrol versi yang dirancang khusus untuk mengelola proyek pengembangan perangkat lunak. Ia memungkinkan pengembang untuk melacak, menyimpan, dan berkolaborasi dalam mengelola perubahan-perubahan yang terjadi pada kode sumber proyek.</description>
+    </item>
+    
+  </channel>
+</rss>
