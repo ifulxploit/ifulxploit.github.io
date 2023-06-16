@@ -2,16 +2,109 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ifulxploit.github.io/tags/.gitignore/</loc>
+    <lastmod>2023-06-16T23:44:30+07:00</lastmod>
+  </url><url>
     <loc>https://ifulxploit.github.io/blogs/</loc>
-    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
+    <lastmod>2023-06-16T23:44:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/git/</loc>
+    <lastmod>2023-06-16T23:44:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/</loc>
+    <lastmod>2023-06-16T23:44:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/memperbaiki-kesalahan-commit/</loc>
+    <lastmod>2023-06-16T23:44:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/blogs/menangani-file-yang-tidak-perlu-dilacak-dan-memperbaiki-kesalahan-commit-sebelumnya/</loc>
+    <lastmod>2023-06-16T23:44:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/mengabaikan-file-git/</loc>
+    <lastmod>2023-06-16T23:44:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/</loc>
+    <lastmod>2023-06-16T23:44:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/version-control/</loc>
+    <lastmod>2023-06-16T23:44:30+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/log-commit/</loc>
+    <lastmod>2023-06-16T23:36:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/melihat-log-commit/</loc>
+    <lastmod>2023-06-16T23:36:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/melihat-perubahan-commit/</loc>
+    <lastmod>2023-06-16T23:36:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/blogs/memahami-cara-melihat-log-commit-dan-melihat-perubahan-pada-commit-tertentu/</loc>
+    <lastmod>2023-06-16T23:36:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/pengembangan-perangkat-lunak/</loc>
+    <lastmod>2023-06-16T23:36:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/riwayat-commit/</loc>
+    <lastmod>2023-06-16T23:36:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/vcs/</loc>
+    <lastmod>2023-06-16T23:36:06+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/cherry-pick/</loc>
+    <lastmod>2023-06-16T23:29:35+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/efisiensi-kerja/</loc>
+    <lastmod>2023-06-16T23:29:35+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/gitmaster-academy/</loc>
+    <lastmod>2023-06-16T23:29:35+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/kolaborasi-git/</loc>
+    <lastmod>2023-06-16T23:29:35+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/blogs/mengoptimalkan-penggunaan-git-dengan-revert-rebase-cherry-pick-stash-dan-lainnya/</loc>
+    <lastmod>2023-06-16T23:29:35+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/rebase/</loc>
+    <lastmod>2023-06-16T23:29:35+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/revert/</loc>
+    <lastmod>2023-06-16T23:29:35+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/stash/</loc>
+    <lastmod>2023-06-16T23:29:35+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/tag-dan-release/</loc>
+    <lastmod>2023-06-16T23:29:35+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/kolaborasi-dalam-tim/</loc>
+    <lastmod>2023-06-16T23:22:44+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/kolaborasi-tim/</loc>
+    <lastmod>2023-06-16T23:22:44+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/konflik-merge/</loc>
+    <lastmod>2023-06-16T23:22:44+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/blogs/konsep-kolaborasi-dalam-git-mengelola-konflik-saat-melakukan-merge-dan-melakukan-pull-request-dan-melakukan-review-kode/</loc>
+    <lastmod>2023-06-16T23:22:44+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/manajemen-konflik/</loc>
+    <lastmod>2023-06-16T23:22:44+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/pull-request/</loc>
+    <lastmod>2023-06-16T23:22:44+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/review-kode/</loc>
+    <lastmod>2023-06-16T23:22:44+07:00</lastmod>
+  </url><url>
+    <loc>https://ifulxploit.github.io/tags/sistem-kontrol-versi/</loc>
+    <lastmod>2023-06-16T23:22:44+07:00</lastmod>
   </url><url>
     <loc>https://ifulxploit.github.io/tags/github/</loc>
     <lastmod>2023-06-14T21:54:12+07:00</lastmod>
   </url><url>
     <loc>https://ifulxploit.github.io/tags/gitlab/</loc>
-    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
-  </url><url>
-    <loc>https://ifulxploit.github.io/</loc>
     <lastmod>2023-06-14T21:54:12+07:00</lastmod>
   </url><url>
     <loc>https://ifulxploit.github.io/tags/kolaborasi/</loc>
@@ -20,22 +113,13 @@
     <loc>https://ifulxploit.github.io/blogs/pemahaman-tentang-remote-repository-menghubungkan-dan-berkolaborasi-dengan-github-atau-gitlab/</loc>
     <lastmod>2023-06-14T21:54:12+07:00</lastmod>
   </url><url>
-    <loc>https://ifulxploit.github.io/tags/pengembangan-perangkat-lunak/</loc>
-    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
-  </url><url>
     <loc>https://ifulxploit.github.io/tags/push-dan-pull/</loc>
     <lastmod>2023-06-14T21:54:12+07:00</lastmod>
   </url><url>
     <loc>https://ifulxploit.github.io/tags/remote-repository/</loc>
     <lastmod>2023-06-14T21:54:12+07:00</lastmod>
   </url><url>
-    <loc>https://ifulxploit.github.io/tags/</loc>
-    <lastmod>2023-06-14T21:54:12+07:00</lastmod>
-  </url><url>
     <loc>https://ifulxploit.github.io/tags/commit/</loc>
-    <lastmod>2023-06-14T21:51:30+07:00</lastmod>
-  </url><url>
-    <loc>https://ifulxploit.github.io/tags/git/</loc>
     <lastmod>2023-06-14T21:51:30+07:00</lastmod>
   </url><url>
     <loc>https://ifulxploit.github.io/blogs/melakukan-commit-menambahkan-perubahan-ke-repository/</loc>
@@ -101,9 +185,6 @@
     <loc>https://ifulxploit.github.io/tags/repository-git-lokal/</loc>
     <lastmod>2023-06-14T21:42:37+07:00</lastmod>
   </url><url>
-    <loc>https://ifulxploit.github.io/tags/sistem-kontrol-versi/</loc>
-    <lastmod>2023-06-14T21:42:37+07:00</lastmod>
-  </url><url>
     <loc>https://ifulxploit.github.io/tags/alamat-email-git/</loc>
     <lastmod>2023-06-14T21:38:24+07:00</lastmod>
   </url><url>
@@ -165,9 +246,6 @@
     <lastmod>2023-06-14T21:28:31+07:00</lastmod>
   </url><url>
     <loc>https://ifulxploit.github.io/tags/perbedaan/</loc>
-    <lastmod>2023-06-14T21:28:31+07:00</lastmod>
-  </url><url>
-    <loc>https://ifulxploit.github.io/tags/pull-request/</loc>
     <lastmod>2023-06-14T21:28:31+07:00</lastmod>
   </url><url>
     <loc>https://ifulxploit.github.io/tags/repository/</loc>

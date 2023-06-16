@@ -6,7 +6,45 @@
     <description>Recent content in Blogs on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jun 2023 21:54:12 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jun 2023 23:44:30 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Menangani File Yang Tidak Perlu Dilacak Dan Memperbaiki Kesalahan Commit Sebelumnya</title>
+      <link>https://ifulxploit.github.io/blogs/menangani-file-yang-tidak-perlu-dilacak-dan-memperbaiki-kesalahan-commit-sebelumnya/</link>
+      <pubDate>Fri, 16 Jun 2023 23:44:30 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/menangani-file-yang-tidak-perlu-dilacak-dan-memperbaiki-kesalahan-commit-sebelumnya/</guid>
+      <description>Menangani Kasus Khusus dalam Git: Menangani File yang Tidak Perlu Dilacak (Ignore) dan Memperbaiki Kesalahan Commit Sebelumnya Dalam penggunaan Git, terkadang kita perlu menangani beberapa kasus khusus yang melibatkan file yang tidak perlu dilacak atau kesalahan commit yang perlu diperbaiki. Dalam artikel ini, kita akan membahas dua kasus khusus tersebut: menangani file yang tidak perlu dilacak menggunakan fitur &amp;ldquo;ignore&amp;rdquo; dan memperbaiki kesalahan commit sebelumnya.
+Menangani File yang Tidak Perlu Dilacak (Ignore) Dalam pengembangan perangkat lunak, ada beberapa file atau direktori yang tidak perlu dilacak oleh Git.</description>
+    </item>
+    
+    <item>
+      <title>Memahami Cara Melihat Log Commit Dan Melihat Perubahan Pada Commit Tertentu</title>
+      <link>https://ifulxploit.github.io/blogs/memahami-cara-melihat-log-commit-dan-melihat-perubahan-pada-commit-tertentu/</link>
+      <pubDate>Fri, 16 Jun 2023 23:36:06 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/memahami-cara-melihat-log-commit-dan-melihat-perubahan-pada-commit-tertentu/</guid>
+      <description>Menyelidiki Log dan Riwayat: Memahami Cara Melihat Log Commit dan Melihat Perubahan pada Commit Tertentu Dalam pengembangan perangkat lunak menggunakan Git, penting untuk memahami cara menyelidiki log dan riwayat commit. Log commit adalah catatan yang menyimpan informasi tentang setiap perubahan yang terjadi dalam repository Git, sementara melihat perubahan pada commit tertentu memungkinkan kita untuk memahami perubahan yang dilakukan pada saat itu. Dalam artikel ini, kita akan menjelajahi cara melihat log commit dan melihat perubahan pada commit tertentu.</description>
+    </item>
+    
+    <item>
+      <title>Mengoptimalkan Penggunaan Git Dengan Revert Rebase Cherry Pick Stash Dan Lainnya</title>
+      <link>https://ifulxploit.github.io/blogs/mengoptimalkan-penggunaan-git-dengan-revert-rebase-cherry-pick-stash-dan-lainnya/</link>
+      <pubDate>Fri, 16 Jun 2023 23:29:35 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/mengoptimalkan-penggunaan-git-dengan-revert-rebase-cherry-pick-stash-dan-lainnya/</guid>
+      <description>Dalam pengembangan perangkat lunak dengan Git, ada lebih dari sekedar commit, push, dan pull. Git menawarkan sejumlah fitur lanjutan yang dapat membantu Anda mengelola proyek dengan lebih efisien. Dalam artikel ini, kita akan menjelajahi beberapa fitur lanjutan yang dapat memperkaya pengalaman Anda menggunakan Git, termasuk revert, rebase, cherry-pick, stash, serta penggunaan tag dan release.
+1. Revert: Mengembalikan Perubahan Ketika Anda perlu membatalkan perubahan pada commit tertentu tanpa menghapus sejarah commit yang ada, fitur revert dapat menjadi solusinya.</description>
+    </item>
+    
+    <item>
+      <title>Konsep Kolaborasi Dalam Git Mengelola Konflik Saat Melakukan Merge Dan Melakukan Pull Request Dan Melakukan Review Kode</title>
+      <link>https://ifulxploit.github.io/blogs/konsep-kolaborasi-dalam-git-mengelola-konflik-saat-melakukan-merge-dan-melakukan-pull-request-dan-melakukan-review-kode/</link>
+      <pubDate>Fri, 16 Jun 2023 23:22:44 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/konsep-kolaborasi-dalam-git-mengelola-konflik-saat-melakukan-merge-dan-melakukan-pull-request-dan-melakukan-review-kode/</guid>
+      <description>Kolaborasi dalam Tim: Memahami Konsep Kolaborasi dalam Git, Mengelola Konflik saat Melakukan Merge, dan Melakukan Pull Request dan Melakukan Review Kode Kolaborasi dalam tim merupakan komponen penting dalam pengembangan perangkat lunak yang sukses. Dalam konteks penggunaan Git sebagai sistem kontrol versi, kolaborasi yang efektif menjadi lebih mungkin dengan adanya fitur-fitur yang mendukung kerja tim. Artikel ini akan membahas konsep kolaborasi dalam Git, mengelola konflik saat melakukan merge, dan melakukan pull request serta melakukan review kode.</description>
+    </item>
+    
     <item>
       <title>Pemahaman Tentang Remote Repository Menghubungkan Dan Berkolaborasi Dengan GitHub Atau GitLab</title>
       <link>https://ifulxploit.github.io/blogs/pemahaman-tentang-remote-repository-menghubungkan-dan-berkolaborasi-dengan-github-atau-gitlab/</link>

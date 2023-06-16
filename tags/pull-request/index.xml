@@ -6,7 +6,16 @@
     <description>Recent content in Pull request on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jun 2023 21:28:31 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/pull-request/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jun 2023 23:22:44 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/pull-request/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konsep Kolaborasi Dalam Git Mengelola Konflik Saat Melakukan Merge Dan Melakukan Pull Request Dan Melakukan Review Kode</title>
+      <link>https://ifulxploit.github.io/blogs/konsep-kolaborasi-dalam-git-mengelola-konflik-saat-melakukan-merge-dan-melakukan-pull-request-dan-melakukan-review-kode/</link>
+      <pubDate>Fri, 16 Jun 2023 23:22:44 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/konsep-kolaborasi-dalam-git-mengelola-konflik-saat-melakukan-merge-dan-melakukan-pull-request-dan-melakukan-review-kode/</guid>
+      <description>Kolaborasi dalam Tim: Memahami Konsep Kolaborasi dalam Git, Mengelola Konflik saat Melakukan Merge, dan Melakukan Pull Request dan Melakukan Review Kode Kolaborasi dalam tim merupakan komponen penting dalam pengembangan perangkat lunak yang sukses. Dalam konteks penggunaan Git sebagai sistem kontrol versi, kolaborasi yang efektif menjadi lebih mungkin dengan adanya fitur-fitur yang mendukung kerja tim. Artikel ini akan membahas konsep kolaborasi dalam Git, mengelola konflik saat melakukan merge, dan melakukan pull request serta melakukan review kode.</description>
+    </item>
+    
     <item>
       <title>Memahami Apa Itu Git Dan Peranannya Dalam Pengembangan Perangkat Lunak</title>
       <link>https://ifulxploit.github.io/blogs/memahami-apa-itu-git-dan-peranannya-dalam-pengembangan-perangkat-lunak/</link>

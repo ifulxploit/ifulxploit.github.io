@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kolaborasi Git on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</title>
+    <link>https://ifulxploit.github.io/tags/kolaborasi-git/</link>
+    <description>Recent content in Kolaborasi Git on iFulxploit - Blog Teknologi Terkini tentang Keamanan Jaringan, Hacking, dan Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Jun 2023 23:29:35 +0700</lastBuildDate><atom:link href="https://ifulxploit.github.io/tags/kolaborasi-git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mengoptimalkan Penggunaan Git Dengan Revert Rebase Cherry Pick Stash Dan Lainnya</title>
+      <link>https://ifulxploit.github.io/blogs/mengoptimalkan-penggunaan-git-dengan-revert-rebase-cherry-pick-stash-dan-lainnya/</link>
+      <pubDate>Fri, 16 Jun 2023 23:29:35 +0700</pubDate>
+      
+      <guid>https://ifulxploit.github.io/blogs/mengoptimalkan-penggunaan-git-dengan-revert-rebase-cherry-pick-stash-dan-lainnya/</guid>
+      <description>Dalam pengembangan perangkat lunak dengan Git, ada lebih dari sekedar commit, push, dan pull. Git menawarkan sejumlah fitur lanjutan yang dapat membantu Anda mengelola proyek dengan lebih efisien. Dalam artikel ini, kita akan menjelajahi beberapa fitur lanjutan yang dapat memperkaya pengalaman Anda menggunakan Git, termasuk revert, rebase, cherry-pick, stash, serta penggunaan tag dan release.
+1. Revert: Mengembalikan Perubahan Ketika Anda perlu membatalkan perubahan pada commit tertentu tanpa menghapus sejarah commit yang ada, fitur revert dapat menjadi solusinya.</description>
+    </item>
+    
+  </channel>
+</rss>
